@@ -1,0 +1,46 @@
+body {
+  overflow-x: hidden;
+}
+
+
+/*Side bar vertical icons css*/
+#sicon{
+  font-size: 30px;
+  color: gray;
+  text-align: center;
+  display: block;
+}
+
+/*Navbar icons css*/
+#hicon{
+  font-size: 20px;
+}
+
+/*Video bottom text*/
+#vtext{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
+@media (min-width: 768px) {
+ 
+  #content {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #sbtn{
+  float: right;
+}
+
+}
+
+
+@media(max-width:400){
+ #sbtn{
+    visibility: hidden;
+  }
+}
+
